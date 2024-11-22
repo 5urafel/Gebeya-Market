@@ -1,0 +1,71 @@
+.hero-wrapper {
+  background-color: #882bec;
+  margin: 0;
+  position: relative;
+  color: white;
+  height: 769px;
+}
+.hero-wrapper h1 {
+  font-family: "Alfa Slab One", sans-serif;
+  font-size: 128px;
+  line-height: 175.23px;
+  position: absolute;
+}
+.gebeya {
+  text-transform: capitalize;
+
+  top: 103px;
+  left: 80px;
+}
+.shop {
+  text-transform: uppercase;
+
+  top: 276px;
+  left: 1007px;
+}
+.hero-wrapper p {
+  font-size: 20px;
+  line-height: 32px;
+  width: 435px;
+  position: absolute;
+  top: 116px;
+  left: 997px;
+}
+.img1 {
+  position: absolute;
+  top: 78px;
+  left: 606px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.img2 {
+  position: absolute;
+  top: 358px;
+  left: 188px;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+}
+.img3 {
+  position: absolute;
+  top: 482px;
+  left: 1057px;
+  width: 223px;
+  height: 223px;
+  border-radius: 50%;
+}
+.hero-btn {
+  position: absolute;
+  top: 528px;
+  left: 573px;
+  background-color: #fea301;
+  font-weight: 500;
+  color: #222222;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 15px 110px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
