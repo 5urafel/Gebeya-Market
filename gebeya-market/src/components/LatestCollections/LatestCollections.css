@@ -1,0 +1,53 @@
+.latest-collections {
+  padding: 80px;
+  overflow: hidden;
+}
+
+.latest-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latest-header .title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.swip-btn {
+  display: flex;
+  gap: 32px;
+}
+
+.swip-btn button {
+  background-color: #ffa301;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 17px;
+}
+
+.swip-btn .next-btn {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.swip-btn .back-btn {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.swip-btn button:hover {
+  background-color: #ff8c00;
+}
+
+/* Product Card List Container */
+.product-card-list {
+  display: flex;
+  gap: 20px;
+  justify-content: left;
+  align-items: stretch;
+  padding-top: 64px;
+}
